@@ -106,7 +106,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en">
+		<html lang="en" className="bg-grey-hextech-black">
 			<body className={`${beaufortForLOL.variable} ${spiegel.variable}`}>
 				{children}
 			</body>

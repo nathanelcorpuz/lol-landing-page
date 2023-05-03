@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.hextechShape {
+		clip-path: path(
+			"M198.738 40.195C134.719 60.3714 66.0428 60.3714 2.02405 40.195L26.1744 1.04956H50.6309H100.381H150.131H174.587L198.738 40.195Z"
+		);
+	}
+}
