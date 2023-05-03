@@ -1,8 +1,10 @@
 import HextechButton from "@/components/button/HextechButton";
+import NormalButton from "@/components/button/NormalButton";
 
 export default function Home() {
 	return (
-		<main className="flex min-h-screen flex-col items-center justify-between pt-36">
+		<main className="pt-36 flex justify-center items-center gap-36">
+			<NormalButton />
 			<HextechButton />
 		</main>
 	);

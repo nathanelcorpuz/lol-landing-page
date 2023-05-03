@@ -1,21 +1,14 @@
-"use client";
-
-import { useState } from "react";
-
 export default function HextechButton() {
-	const [hovered, setHovered] = useState(false);
 	return (
 		<div
 			// hextechShape comes from globals.css
-			className="hextechShape relative w-[200px]"
-			onMouseEnter={() => setHovered(true)}
-			onMouseLeave={() => setHovered(false)}
+			className="hextechShape relative w-[200px] scale-[1.35] group"
 		>
-			<div className="absolute top-[13px] right-0 bottom-0 left-[46px] z-10 cursor-pointer">
+			<div className="absolute w-[100%] text-center pt-[16px] z-10 cursor-pointer">
 				<p
-					className={`font-beaufort text-h6 transition-all font-bold ${
-						hovered ? "text-blue-2" : "text-gold-1"
-					} `}
+					className={`text-blue-1 leading-[19px] tracking-[1.1px] font-beaufort 
+					text-h6 transition-all font-bold group-hover:[text-shadow:_0_0_2px_#0AC8B9]
+					`}
 				>
 					PLAY FOR FREE
 				</p>
@@ -25,18 +18,18 @@ export default function HextechButton() {
 				autoPlay
 				loop
 				src={"/normal-glow.mp4"}
-				className={`rotate-[-15deg] scale-[2.5] cursor-pointer transition-all duration-500 absolute ${
-					hovered ? "opacity-50" : "opacity-100"
-				}`}
+				className={`rotate-[-15deg] scale-[2.5] cursor-pointer transition-all duration-500 absolute
+				opacity-[100] group-hover:opacity-[0]
+				`}
 			/>
 			<video
 				muted
 				autoPlay
 				loop
 				src={"/intense-glow.mp4"}
-				className={`rotate-[-15deg] scale-[2.5] cursor-pointer transition-all duration-500 absolute ${
-					hovered ? "opacity-100" : "opacity-50"
-				}`}
+				className={`rotate-[-15deg] scale-[2.5] cursor-pointer transition-all duration-500 absolute 
+				opacity-[0.15] group-hover:opacity-[100]
+				`}
 			/>
 		</div>
 	);
