@@ -28,7 +28,7 @@ export default function HextechButtonRightShape() {
 					y2="1.50129"
 					gradientUnits="userSpaceOnUse"
 				>
-					<stop stop-color="#010A13" />
+					<stop stopColor="#010A13" />
 					<stop offset="1" stop-opacity="0" />
 				</linearGradient>
 				<linearGradient
@@ -39,7 +39,7 @@ export default function HextechButtonRightShape() {
 					y2="0.799565"
 					gradientUnits="userSpaceOnUse"
 				>
-					<stop stop-color="#010A13" />
+					<stop stopColor="#010A13" />
 					<stop offset="1" stop-opacity="0" />
 				</linearGradient>
 			</defs>

@@ -14,7 +14,7 @@ export default function HextechButton() {
 				<div className="absolute w-[100%] text-center pt-[16px] z-10 cursor-pointer">
 					<p
 						className={`text-blue-1 leading-[19px] tracking-[1.1px] font-beaufort 
-					text-h6 transition-all font-bold group-hover:[text-shadow:_0_0_2px_#0AC8B9]
+					text-h6 transition-all font-bold group-hover:[text-shadow:_0_0_5px_#0AC8B9]
 					`}
 					>
 						PLAY FOR FREE
