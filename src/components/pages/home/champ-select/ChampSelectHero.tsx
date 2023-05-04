@@ -1,13 +1,13 @@
 import Heading1 from "@/components/common/text/heading/Heading1";
-import champs from "../../../../public/champs.webp";
+import champs from "../../../../../public/champs.webp";
 import Image from "next/image";
 import Standard1 from "@/components/common/text/standard/Standard1";
 import NormalHextechButton from "@/components/common/button/NormalHextechButton";
 import ButtonLink from "@/components/common/button/ButtonLink";
 
-export default function ChampSelect() {
+export default function ChampSelectHero() {
 	return (
-		<section className="relative">
+		<div className="relative">
 			<div className="relative w-screen h-[800px]">
 				<Image
 					src={champs}
@@ -24,11 +24,11 @@ export default function ChampSelect() {
 					rift.
 				</Standard1>
 				<div className="flex flex-col gap-[20px] items-center">
-					<NormalHextechButton text="Discover more Champions" />
+					<NormalHextechButton text="Discover More Champions" />
 					<ButtonLink>Play Now</ButtonLink>
 				</div>
 			</div>
 			<span className="block absolute top-0 w-screen h-[800px] [background:linear-gradient(180deg,rgba(0,0,0,0)_0%,#010A13_100%),linear-gradient(180deg,#010A13_0%,rgba(0,0,0,0)_100%)] z-10" />
-		</section>
+		</div>
 	);
 }
