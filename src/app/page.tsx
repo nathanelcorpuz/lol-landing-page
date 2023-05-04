@@ -16,10 +16,10 @@ export default function Home() {
 	return (
 		<main className="pt-36 flex justify-center items-center gap-36 flex-wrap">
 			{/* text standards */}
-			<Standard1>Sample text</Standard1>
+			{/* <Standard1>Sample text</Standard1>
 			<Standard2>Sample text</Standard2>
 			<Standard3>Sample text</Standard3>
-			<Standard4>Sample text</Standard4>
+			<Standard4>Sample text</Standard4> */}
 
 			{/* text headings */}
 			{/* <Heading1>Sample heading 1</Heading1>

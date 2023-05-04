@@ -13,6 +13,21 @@ module.exports = {
 			xl: "1440px",
 		},
 		extend: {
+			keyframes: {
+				slideIn: {
+					"0%": { left: "100%" },
+					"100%": { left: "0" },
+				},
+				fadeIn: {
+					"0%": { opacity: 0 },
+					"50%": { opacity: 0 },
+					"100%": { opacity: 1 },
+				},
+			},
+			animation: {
+				slideIn: "slideIn 0.8s ease-in-out forwards",
+				fadeIn: "fadeIn 1.6s ease-in-out forwards",
+			},
 			fontSize: {
 				h1: "70px",
 				h2: "50px",

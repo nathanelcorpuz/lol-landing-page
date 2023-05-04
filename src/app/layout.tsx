@@ -1,3 +1,4 @@
+import Header from "@/components/header/Header";
 import "./globals.css";
 import localFont from "next/font/local";
 
@@ -108,6 +109,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" className="bg-grey-hextech-black">
 			<body className={`${beaufortForLOL.variable} ${spiegel.variable}`}>
+				<Header />
 				{children}
 			</body>
 		</html>
