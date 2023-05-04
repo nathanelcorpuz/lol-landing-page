@@ -49,7 +49,7 @@ export default function Header() {
 	return (
 		<>
 			<HeaderMobile />
-			<header className="hidden xl:flex text-gold-1 items-center justify-between border-b-gold-6 border-b">
+			<header className="fixed w-[100%] z-30 bg-grey-hextech-black hidden xl:flex text-gold-1 items-center justify-between border-b-gold-6 border-b">
 				<div className="[background:linear-gradient(180deg,rgba(255,255,255,0)_0%,rgba(200,170,110,0.2)_100%)] cursor-pointer">
 					<div className="flex items-center h-[80px] px-[30px] bg-grey-hextech-black hover:bg-transparent transition-all duration-300">
 						<Image

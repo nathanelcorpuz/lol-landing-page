@@ -5,7 +5,7 @@ import HextechButton from "@/components/common/button/HextechButton";
 export default function HomeHero() {
 	return (
 		<section className="h-[700px] relative flex flex-col pt-[50px] items-center">
-			<div className="z-10">
+			<div className="z-10 pt-[120px]">
 				<Image
 					src={logo}
 					alt="league of legends logo"
@@ -16,7 +16,7 @@ export default function HomeHero() {
 			<div className="z-10">
 				<HextechButton />
 			</div>
-			<div className="absolute top-[-100px]">
+			<div className="absolute top-0">
 				<video
 					src="/bg-ambience-3.mp4"
 					className="w-screen opacity-[0.2]"
