@@ -60,7 +60,10 @@ export default function HeaderMobile() {
 						className=""
 					/>
 				</div>
-				<Link href="#" className="w-[150px] h-[80px] px-[40px] flex items-center justify-center">
+				<Link
+					href="#"
+					className="w-[150px] h-[80px] px-[40px] flex items-center justify-center"
+				>
 					<Image
 						src={lol}
 						alt="league of legends icon"
@@ -83,12 +86,11 @@ export default function HeaderMobile() {
 					</button>
 				</div>
 			</header>
-			{/* modal */}
 			{isModalOpen && (
 				<div
 					className="
         fixed top-0 right-0 bottom-0 bg-grey-hextech-black
-        animate-slideIn border-l border-l-gold-6"
+        animate-slideIn border-l border-l-gold-6 z-[100]"
 				>
 					<div className="animate-fadeIn">
 						<HeaderMobileModalMenu setIsModalOpen={setIsModalOpen} />

@@ -9,11 +9,6 @@ import { roles } from "./utils/roles";
 export default function ChampSelectInteractive() {
 	const [activeRole, setActiveRole] = useState("Assassins");
 
-	console.log("\n\n");
-	console.log("activeRole: ");
-	console.log(activeRole);
-	console.log("\n\n");
-
 	return (
 		<div className="z-20 pb-[50px] relative">
 			<RoleButtons
