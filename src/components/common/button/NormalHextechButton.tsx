@@ -1,6 +1,6 @@
 export default function NormalHextechButton({ text }: { text: string }) {
 	return (
-		<div className="relative group w-[360px] h-[61px] overflow-hidden cursor-pointer">
+		<div className="relative group xs:w-[270px] md:w-[360px] h-[61px] overflow-hidden cursor-pointer">
 			<video
 				muted
 				autoPlay

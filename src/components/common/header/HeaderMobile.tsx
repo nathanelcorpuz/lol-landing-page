@@ -50,7 +50,7 @@ export default function HeaderMobile() {
 	const [isModalOpen, setIsModalOpen] = useState(false);
 	return (
 		<>
-			<header className="xl:hidden flex text-gold-1 items-center justify-between border-b-gold-6 border-b">
+			<header className="w-[100%] z-50 bg-grey-hextech-black fixed xl:hidden flex text-gold-1 items-center justify-between border-b-gold-6 border-b">
 				<div className="w-[150px] p-[20px]">
 					<Image
 						src={riot}

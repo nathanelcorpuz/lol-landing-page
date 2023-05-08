@@ -4,8 +4,8 @@ import HextechButton from "@/components/common/button/HextechButton";
 
 export default function HomeHero() {
 	return (
-		<section className="h-[700px] relative flex flex-col pt-[50px] items-center">
-			<div className="z-10 xs:pt-0 sm:pt-[50px] md:pt-[120px] px-[30px]">
+		<section className="xs:h-[400px] sm:h-[600px] md:h-[700px] relative flex flex-col pt-[100px] items-center">
+			<div className="z-10 xs:pt-0 sm:pt-[0px] xl:pt-[120px] px-[30px]">
 				<Image
 					src={logo}
 					alt="league of legends logo"
@@ -17,10 +17,11 @@ export default function HomeHero() {
 				<HextechButton />
 			</div>
 			<div
-				className="absolute xs:top-0 xs:scale-[4] 
-			sm:top-[150px] sm:scale-[2.5]
-			md:top-[50px] md:scale-[1]
-			xl:top-[0]"
+				className="absolute xs:top-[70px] xs:scale-[4] 
+			sm:top-[190px] sm:scale-[2.5]
+			md:top-[250px] md:scale-[2]
+			lg:top-[120px] lg:scale-[1.5]
+			xl:scale-[1] xl:top-[0]"
 			>
 				<video
 					src="/bg-ambience-3.mp4"
