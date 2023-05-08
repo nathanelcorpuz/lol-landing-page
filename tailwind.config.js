@@ -24,10 +24,15 @@ module.exports = {
 					"50%": { opacity: 0 },
 					"100%": { opacity: 1 },
 				},
+				rotation: {
+					"0%": { transform: "rotate(0)" },
+					"100%": { transform: "rotate(360deg)" },
+				},
 			},
 			animation: {
 				slideIn: "slideIn 0.8s ease-in-out forwards",
 				fadeIn: "fadeIn 1.6s ease-in-out forwards",
+				rotation: "rotation 200s infinite",
 			},
 			fontSize: {
 				h1: "70px",
