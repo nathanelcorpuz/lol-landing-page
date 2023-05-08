@@ -12,7 +12,12 @@ export default function VideoHighlight({
 	roles: Role[];
 }) {
 	return (
-		<div className="flex flex-col gap-[55px] w-[50%] items-start justify-center">
+		<div
+			className="flex flex-col gap-[30px] 
+		lg:gap-[25px] p-4 lg:p-[0] lg:w-[50%]
+		items-center lg:items-stretch
+		text-center lg:text-start"
+		>
 			<div className="relative w-[fit-content] scale-[1]">
 				<Image src={frame} width={500} height={200} alt="video frame" />
 				<div className="flex absolute top-[5px] right-0 left-0 items-center justify-center">
@@ -21,18 +26,18 @@ export default function VideoHighlight({
 						muted
 						loop
 						src={`/${activeRole.toLowerCase()}.webm`}
-						className="w-[490px]"
+						className="w-[95%] pt-[0.5%]"
 					/>
 				</div>
 			</div>
-			<div className="w-[550px]">
+			<div className="">
 				<Standard1>
 					<>
 						{roles.find((role) => role.label === activeRole)?.roleDescription}
 					</>
 				</Standard1>
 			</div>
-			<div className="w-[fit-content] ms-[20px]">
+			<div className="w-[fit-content]">
 				<NormalButton />
 			</div>
 		</div>

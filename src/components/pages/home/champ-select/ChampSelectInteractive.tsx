@@ -16,7 +16,7 @@ export default function ChampSelectInteractive() {
 				activeRole={activeRole}
 				setActiveRole={setActiveRole}
 			/>
-			<div className="absolute top-0 z-[-10]">
+			<div className="absolute top-[300px] xl:top-[10%] z-[-10]">
 				<video
 					src="/bg-ambience-2.mp4"
 					className="w-screen opacity-[0.2]"
@@ -25,7 +25,7 @@ export default function ChampSelectInteractive() {
 					loop
 				/>
 			</div>
-			<div className=" max-w-[1300px] m-auto flex items-center justify-center relative">
+			<div className=" max-w-[1300px] m-auto flex flex-col lg:flex-row items-stretch relative gap-[50px] lg:gap-[0] p-4">
 				<VideoHighlight activeRole={activeRole} roles={roles} />
 				<ChampHighlight activeRole={activeRole} roles={roles} />
 			</div>

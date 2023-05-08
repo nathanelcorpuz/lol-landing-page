@@ -13,7 +13,14 @@ export default function RoleButtons({
 	setActiveRole: Dispatch<string>;
 }) {
 	return (
-		<div className="max-w-[1600px] flex items-center justify-center m-auto">
+		<div
+			className="
+		max-w-[1600px] flex items-center
+		xs:justify-start lg:justify-center
+		border-b border-b-gold-2
+		xl:border-0
+		m-auto overflow-auto overflow-y-hidden"
+		>
 			{roles.map((role) => {
 				const isActive = activeRole === role.label;
 				return (
@@ -23,7 +30,7 @@ export default function RoleButtons({
 					>
 						<div
 							key={role.label}
-							className="z-100 flex flex-col gap-[4px] w-[250px] h-[250px] items-center justify-center transition-all duration-500 cursor-pointer bg-grey-hextech-black hover:bg-transparent
+							className="z-100 flex flex-col gap-[4px] w-[150px] h-[150px] lg:w-[250px] lg:h-[250px] items-center justify-center transition-all duration-500 cursor-pointer bg-grey-hextech-black hover:bg-transparent
               hover:scale-[1.1]"
 							onClick={() => setActiveRole(role.label)}
 						>
@@ -34,8 +41,8 @@ export default function RoleButtons({
 							>
 								<Image
 									src={role.icon}
-									width={60}
-									height={60}
+									width={50}
+									height={50}
 									alt={`${role.label} logo`}
 								/>
 							</div>

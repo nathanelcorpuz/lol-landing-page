@@ -1,7 +1,7 @@
 export default function NormalButton() {
 	return (
 		<div
-			className="group scale-[1.35] p-[1px] bg-black cursor-pointer transition-all duration-300
+			className="group bg-black cursor-pointer transition-all duration-300
 			hover:[filter:_drop-shadow(0_0_5px_rgba(200,170,110,0.5))]
 			"
 		>
