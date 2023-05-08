@@ -15,7 +15,7 @@ export default function RoleButtons({
 	return (
 		<div className="max-w-[1600px] flex items-center justify-center m-auto">
 			{roles.map((role) => {
-				// WIP: must update UI for matched active role
+				const isActive = activeRole === role.label;
 				return (
 					<div
 						key={role.label}
@@ -27,7 +27,11 @@ export default function RoleButtons({
               hover:scale-[1.1]"
 							onClick={() => setActiveRole(role.label)}
 						>
-							<div className="opacity-[0.3]">
+							<div
+								className={`transition-all duration-500 opacity-[0.3] ${
+									isActive ? "opacity-[1] scale-[1.2]" : ""
+								}`}
+							>
 								<Image
 									src={role.icon}
 									width={60}
@@ -35,7 +39,11 @@ export default function RoleButtons({
 									alt={`${role.label} logo`}
 								/>
 							</div>
-							<div className="opacity-[0.3]">
+							<div
+								className={`transition-all duration-500 opacity-[0.3] ${
+									isActive ? "opacity-[1] scale-[1.2]" : ""
+								}`}
+							>
 								<Heading6>{role.label}</Heading6>
 							</div>
 						</div>
