@@ -25,7 +25,7 @@ export default function VideoHighlight({
 						muted
 						loop
 						src={`/${activeRole.toLowerCase()}.webm`}
-						className="w-[95%] pt-[0.5%]"
+						className="w-[95%] sm:pt-[5px]"
 					/>
 				</div>
 			</div>
