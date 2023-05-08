@@ -15,11 +15,10 @@ export default function VideoHighlight({
 		<div
 			className="flex flex-col gap-[30px] 
 		lg:gap-[25px] p-4 lg:p-[0] lg:w-[50%]
-		items-center lg:items-stretch
-		text-center lg:text-start"
+		items-center text-center"
 		>
 			<div className="relative w-[fit-content] scale-[1]">
-				<Image src={frame} width={500} height={200} alt="video frame" />
+				<Image src={frame} width={700} height={200} alt="video frame" />
 				<div className="flex absolute top-[5px] right-0 left-0 items-center justify-center">
 					<video
 						autoPlay
@@ -30,7 +29,7 @@ export default function VideoHighlight({
 					/>
 				</div>
 			</div>
-			<div className="">
+			<div className="max-w-[700px]">
 				<Standard1>
 					<>
 						{roles.find((role) => role.label === activeRole)?.roleDescription}

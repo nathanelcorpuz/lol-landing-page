@@ -19,7 +19,7 @@ export default function ChampHighlight({
 	const highlightedChamp = roles.find((role) => role.label === activeRole);
 	return (
 		<div className="xs:w-[250px] sm:w-[350px] md:w-[450px] xl:w-[50%] order-[-1] lg:order-[1] flex flex-col items-center text-center m-auto gap-[20px]">
-			<div className="w-[100%] xs:h-[250px] lg:h-[500px] relative">
+			<div className="w-[100%] xs:h-[250px] sm:h-[350px] md:h-[450px] lg:h-[500px] relative">
 				<Image
 					src={fighters}
 					fill

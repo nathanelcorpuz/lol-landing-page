@@ -25,7 +25,7 @@ export default function ChampSelectInteractive() {
 					loop
 				/>
 			</div>
-			<div className=" max-w-[1300px] m-auto flex flex-col lg:flex-row items-stretch relative gap-[50px] lg:gap-[0] p-4">
+			<div className=" max-w-[1300px] m-auto flex flex-col lg:flex-row items-stretch relative gap-[50px] p-4">
 				<VideoHighlight activeRole={activeRole} roles={roles} />
 				<ChampHighlight activeRole={activeRole} roles={roles} />
 			</div>
