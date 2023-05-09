@@ -27,8 +27,8 @@ export default function ChampSelectHero() {
 				<div className="text-center">
 					<Standard1>
 						Whether you like to dive straight into the fray, support your
-						teammates, or something in between, there's a spot for you in the
-						rift.
+						teammates, or something in between, there&apos;s a spot for you in
+						the rift.
 					</Standard1>
 				</div>
 				<div className="flex flex-col gap-[20px] items-center">

@@ -33,7 +33,10 @@ export default function GameModes() {
 						{gameModes.map((gameMode) => {
 							if (gameMode.h1 === activeGameMode) {
 								return (
-									<div className="z-20 flex flex-col gap-[30px] animate-fadeInFast">
+									<div
+										key={gameMode.h1}
+										className="z-20 flex flex-col gap-[30px] animate-fadeInFast"
+									>
 										<Heading5 className="text-gold-2">{gameMode.h5}</Heading5>
 										<Heading1>{gameMode.h1}</Heading1>
 										<Standard1>{gameMode.description}</Standard1>
