@@ -14,7 +14,7 @@ export default function HomeHero() {
 				/>
 			</div>
 			<div className="z-10 xs:scale-[0.7] sm:scale-[0.8] md:scale-[1]">
-				<HextechButton />
+				<HextechButton>Play for free</HextechButton>
 			</div>
 			<div
 				className="absolute xs:top-[70px] xs:scale-[4] 

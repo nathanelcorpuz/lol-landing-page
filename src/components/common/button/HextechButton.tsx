@@ -1,7 +1,11 @@
 import HextechButtonLeftShape from "./HextechButtonLeftShape";
 import HextechButtonRightShape from "./HextechButtonRightShape";
 
-export default function HextechButton() {
+export default function HextechButton({
+	children,
+}: {
+	children: React.ReactNode;
+}) {
 	return (
 		<div className="flex gap-[10px]">
 			<div className="mt-[-3px]">
@@ -14,10 +18,10 @@ export default function HextechButton() {
 				<div className="absolute w-[100%] text-center pt-[16px] z-10 cursor-pointer">
 					<p
 						className={`text-blue-1 leading-[19px] tracking-[1.1px] font-beaufort 
-					text-h6 transition-all font-bold group-hover:[text-shadow:_0_0_5px_#0AC8B9]
+					text-h6 transition-all font-bold group-hover:[text-shadow:_0_0_5px_#0AC8B9] uppercase
 					`}
 					>
-						PLAY FOR FREE
+						{children}
 					</p>
 				</div>
 				<video

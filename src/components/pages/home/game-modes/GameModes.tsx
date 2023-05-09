@@ -1,7 +1,6 @@
 "use client";
 
 import Heading1 from "@/components/common/text/heading/Heading1";
-import Image from "next/image";
 import Heading5 from "@/components/common/text/heading/Heading5";
 import Standard1 from "@/components/common/text/standard/Standard1";
 import NormalButton from "@/components/common/button/NormalButton";
@@ -22,6 +21,7 @@ export default function GameModes() {
 					activeGameMode={activeGameMode}
 					setActiveGameMode={setActiveGameMode}
 				/>
+				{/* game modes section for desktop */}
 				<div className="absolute top-0 right-0 bottom-0 left-0 hidden xl:flex justify-center gap-[60px]">
 					<div className="relative flex items-center h-[100%] w-[35%] ms-auto">
 						<div className="z-[1] absolute xl:top-[-580px] right-0 bottom-0 left-0 hidden xl:flex gap-[80px] items-center">

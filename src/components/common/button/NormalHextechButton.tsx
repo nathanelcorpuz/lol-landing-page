@@ -1,4 +1,4 @@
-export default function NormalHextechButton({ text }: { text: string }) {
+export default function NormalHextechButton({ children }: { children: React.ReactNode }) {
 	return (
 		<div className="relative group xs:w-[270px] md:w-[360px] h-[61px] overflow-hidden cursor-pointer">
 			<video
@@ -23,9 +23,9 @@ export default function NormalHextechButton({ text }: { text: string }) {
 				className="
       absolute w-[100%] text-center font-bold
       font-beaufort text-h6 scale-[1.35] transition-all
-      text-blue-1 pt-[16px] group-hover:[text-shadow:_0_0_5px_#0AC8B9]"
+      text-blue-1 pt-[16px] group-hover:[text-shadow:_0_0_5px_#0AC8B9] uppercase"
 			>
-				<p>{text}</p>
+				<p>{children}</p>
 			</div>
 		</div>
 	);

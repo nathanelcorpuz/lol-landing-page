@@ -2,6 +2,7 @@ import ChampSelect from "@/components/pages/home/champ-select/ChampSelect";
 import GameModes from "@/components/pages/home/game-modes/GameModes";
 import HomeHero from "@/components/pages/home/HomeHero";
 import SlayWithStyle from "@/components/pages/home/slay-with-style/SlayWithStyle";
+import StartLegend from "@/components/pages/home/start-legend/StartLegend";
 
 export default function Home() {
 	return (
@@ -10,6 +11,7 @@ export default function Home() {
 			<ChampSelect />
 			<SlayWithStyle />
 			<GameModes />
+			<StartLegend />
 		</main>
 	);
 }

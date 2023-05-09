@@ -32,7 +32,7 @@ export default function ChampSelectHero() {
 					</Standard1>
 				</div>
 				<div className="flex flex-col gap-[20px] items-center">
-					<NormalHextechButton text="Discover More Champions" />
+					<NormalHextechButton>Discover More Champions</NormalHextechButton>
 					<ButtonLink>Play Now</ButtonLink>
 				</div>
 			</div>
