@@ -26,7 +26,9 @@ export default function MoreToDiscover() {
 							alt="lulu illustration"
 						/>
 					</div>
-					<Standard2>THE LCK IS READY TO BREAK THE MSI DROUGHT</Standard2>
+					<div className="text-gold-2">
+						<Standard2>THE LCK IS READY TO BREAK THE MSI DROUGHT</Standard2>
+					</div>
 				</div>
 			</div>
 		</section>

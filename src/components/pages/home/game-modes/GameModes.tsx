@@ -22,7 +22,7 @@ export default function GameModes() {
 					setActiveGameMode={setActiveGameMode}
 				/>
 				{/* game modes section for desktop */}
-				<div className="absolute top-0 right-0 bottom-0 left-0 hidden xl:flex justify-center gap-[60px]">
+				<div className="absolute top-0 right-0 bottom-0 left-0 hidden xl:flex justify-center items-center gap-[60px]">
 					<div className="relative flex items-center h-[100%] w-[35%] ms-auto">
 						<div className="z-[1] absolute xl:top-[-580px] right-0 bottom-0 left-0 hidden xl:flex gap-[80px] items-center">
 							<GameModesButtons
@@ -46,7 +46,7 @@ export default function GameModes() {
 							return null;
 						})}
 					</div>
-					<div className="w-[35%] h-[100%] relative me-auto">
+					<div className="w-[35%] relative me-auto">
 						<GameModeVideo activeGameMode={activeGameMode} />
 					</div>
 				</div>

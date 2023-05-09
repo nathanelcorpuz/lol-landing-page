@@ -70,8 +70,12 @@ export default function ChampHighlight({
 				/>
 			</div>
 			<div>
-				<Heading5>{highlightedChamp?.champName}</Heading5>
-				<Standard2>{highlightedChamp?.champTitle}</Standard2>
+				<Heading5 className="text-gold-1">
+					{highlightedChamp?.champName}
+				</Heading5>
+				<div className="text-grey-2">
+					<Standard2>{highlightedChamp?.champTitle}</Standard2>
+				</div>
 			</div>
 		</div>
 	);

@@ -9,16 +9,18 @@ export default function GameModeVideo({
 }) {
 	return (
 		<>
-			<div className="absolute top-0 right-0 bottom-0 left-0 flex items-center">
+			<div className="relative top-0 right-0 bottom-0 left-0 flex items-center w-[100%] h-[100%]">
 				<video
 					src="/rift.mp4"
 					autoPlay
 					muted
 					loop
-					className={`transition-all duration-500 w-[100%] [clip-path:circle(40%)] ${
+					className={`transition-all duration-500 w-[100%] h-[100%] [clip-path:circle(41%)] ${
 						activeGameMode === "Summoner's Rift" ? "opacity-[1]" : "opacity-[0]"
 					}`}
 				/>
+				<Image src={frame} fill alt="frame" className="z-10" />
+				<Image src={lines} fill alt="frame" className="z-10" />
 			</div>
 			<div className="absolute top-0 right-0 bottom-0 left-0 flex items-center">
 				<video
@@ -44,18 +46,6 @@ export default function GameModeVideo({
 					}`}
 				/>
 			</div>
-			<Image
-				src={frame}
-				fill
-				className="object-contain object-center"
-				alt="frame"
-			/>
-			<Image
-				src={lines}
-				fill
-				className="object-contain object-center animate-rotation"
-				alt="frame"
-			/>
 		</>
 	);
 }

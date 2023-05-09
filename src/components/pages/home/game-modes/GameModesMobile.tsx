@@ -14,11 +14,11 @@ export default function GameModesMobile({
 	setActiveGameMode: (gameMode: string) => void;
 }) {
 	return (
-		<div className="absolute top-0 right-0 bottom-0 left-0 flex flex-col xl:hidden items-center justify-center p-4 gap-[40px]">
+		<div className="absolute top-0 right-0 bottom-0 left-0 flex flex-col xl:hidden items-center justify-start p-4 gap-[40px]">
 			<div
 				className="
-      xs:w-[250px] sm:w-[300px] md:w-[500px] lg:w-[700px]
-      xs:h-[250px] sm:h-[300px] md:h-[500px] lg:h-[700px]
+      xs:w-[250px] sm:w-[300px] md:w-[400px] lg:w-[500px]
+      xs:h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px]
       relative"
 			>
 				<GameModeVideo activeGameMode={activeGameMode} />

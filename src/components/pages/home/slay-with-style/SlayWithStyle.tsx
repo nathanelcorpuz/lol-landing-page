@@ -23,8 +23,17 @@ export default function SlayWithStyle() {
 					</div>
 				</div>
 			</div>
-			<video src="/slay-with-style.mp4" autoPlay muted loop />
-			<span className="z-10 absolute top-0 right-0 bottom-0 left-0 [background:linear-gradient(270deg,#010A13_0%,rgba(0,0,0,0)_32.07%),linear-gradient(360deg,_#010A13_0%,rgba(0,0,0,0)_61.28%),linear-gradient(90deg,#010A13_0%,rgba(0,0,0,0)_67.93%),linear-gradient(180deg,#010A13_0%,rgba(0,0,0,0)_32.98%)]" />
+			<video
+				src="/slay-with-style.mp4"
+				className="w-screen object-cover [object-position:70%_0] h-[100vh]"
+				autoPlay
+				muted
+				loop
+			/>
+			<span
+				className="absolute top-0 right-0 bottom-0 left-0 
+          [background:linear-gradient(180deg,#010A13_0%,rgba(0,0,0,0)_50%),linear-gradient(180deg,rgba(0,0,0,0)_50%,#010A13_100%)]"
+			/>
 		</section>
 	);
 }
