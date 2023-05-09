@@ -1,4 +1,5 @@
 import ChampSelect from "@/components/pages/home/champ-select/ChampSelect";
+import EndCTA from "@/components/pages/home/end-cta/EndCTA";
 import GameModes from "@/components/pages/home/game-modes/GameModes";
 import HomeHero from "@/components/pages/home/HomeHero";
 import MoreToDiscover from "@/components/pages/home/more-to-discover/MoreToDiscover";
@@ -14,6 +15,7 @@ export default function Home() {
 			<GameModes />
 			<StartLegend />
 			<MoreToDiscover />
+			<EndCTA />
 		</main>
 	);
 }
