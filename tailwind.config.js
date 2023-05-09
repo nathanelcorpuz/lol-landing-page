@@ -24,6 +24,10 @@ module.exports = {
 					"50%": { opacity: 0 },
 					"100%": { opacity: 1 },
 				},
+				fadeInFast: {
+					"0%": { opacity: 0 },
+					"100%": { opacity: 1 },
+				},
 				rotation: {
 					"0%": { transform: "rotate(0)" },
 					"100%": { transform: "rotate(360deg)" },
@@ -32,7 +36,8 @@ module.exports = {
 			animation: {
 				slideIn: "slideIn 0.8s ease-in-out forwards",
 				fadeIn: "fadeIn 1.6s ease-in-out forwards",
-				rotation: "rotation 200s infinite",
+				fadeInFast: "fadeInFast 0.5s ease-in-out forwards",
+				rotation: "rotation 120s infinite",
 			},
 			fontSize: {
 				h1: "70px",
