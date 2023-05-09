@@ -9,10 +9,11 @@ import Image from "next/image";
 import Standard1 from "../text/standard/Standard1";
 import Standard2 from "../text/standard/Standard2";
 import { nav1, nav2, nav3 } from "./utils/nav";
+import Credits from "./Credits";
 
 export default function FooterDesktop() {
 	return (
-		<footer className="hidden xl:flex border-t border-t-gold-2 list-none flex-col items-center gap-[50px] px-[10px] py-[70px]">
+		<footer className="hidden xl:flex border-t border-t-gold-6 list-none flex-col items-center gap-[50px] px-[10px] py-[70px]">
 			<section className="flex items-center gap-[55px]">
 				<nav>
 					<ul className="flex items-center">
@@ -83,6 +84,7 @@ export default function FooterDesktop() {
 					</ul>
 				</nav>
 			</section>
+			<Credits />
 		</footer>
 	);
 }
