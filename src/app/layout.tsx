@@ -1,6 +1,7 @@
 import Header from "@/components/common/header/Header";
 import "./globals.css";
 import localFont from "next/font/local";
+import Footer from "@/components/common/footer/Footer";
 
 const beaufortForLOL = localFont({
 	src: [
@@ -111,6 +112,7 @@ export default function RootLayout({
 			<body className={`${beaufortForLOL.variable} ${spiegel.variable}`}>
 				<Header />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	);
