@@ -10,7 +10,7 @@ export default function Credits() {
 					href="https://www.leagueoflegends.com/"
 					target="_blank"
 				>
-					League of Legends' home page
+					League of Legends&apos; home page
 				</a>{" "}
 				by{" "}
 				<a
@@ -41,8 +41,8 @@ export default function Credits() {
 					target="_blank"
 				>
 					here
-				</a>
-        {" "}for the source code and more information.
+				</a>{" "}
+				for the source code and more information.
 			</Standard2>
 		</section>
 	);
