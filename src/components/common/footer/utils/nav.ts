@@ -3,7 +3,7 @@ export const nav1 = [
 		label: "About",
 	},
 	{
-		label: "Standard",
+		label: "Support",
 	},
 	{
 		label: "Esports",
