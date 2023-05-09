@@ -16,7 +16,7 @@ export default function GameModes() {
 	return (
 		<section className="py-[250px]">
 			<div className="relative">
-				<GameModesBackground />
+				<GameModesBackground activeGameMode={activeGameMode} />
 				<GameModesMobile
 					activeGameMode={activeGameMode}
 					setActiveGameMode={setActiveGameMode}
