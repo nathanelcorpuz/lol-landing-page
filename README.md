@@ -101,14 +101,14 @@ You can visit the website [here](https://nathan-leagueoflegends.vercel.app/)
 ### 6. Researched Photos
 
 - Summoner&apos;s Rift
-- [Website](http://lol-stats.net/ru_RU/posts/summoners-rift-11902)
-- [Image source](https://lol-stats.net/uploads/4SqRA7X85xvNQyLTyD9NskiGpgavHgF0xTnSRhjo.jpeg)
+ - [Website](http://lol-stats.net/ru_RU/posts/summoners-rift-11902)
+ - [Image source](https://lol-stats.net/uploads/4SqRA7X85xvNQyLTyD9NskiGpgavHgF0xTnSRhjo.jpeg)
 - ARAM
-- [Website](https://www.leagueoflegends.com/en-pl/news/game-updates/aram-2023-preview/)
-- [Image source](https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt265e0e9e81d5c49b/636d61097487894eca7dce7f/111422_PS2023ARAMPreviewArticle_Banner.jpg)
+ - [Website](https://www.leagueoflegends.com/en-pl/news/game-updates/aram-2023-preview/)
+ - [Image source](https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt265e0e9e81d5c49b/636d61097487894eca7dce7f/111422_PS2023ARAMPreviewArticle_Banner.jpg)
 - TFT
-- [Website](https://www.surrenderat20.net/2019/10/red-post-collection-dev-on-tft-set-1.html)
-- [Image source](https://1.bp.blogspot.com/-KZFb-dj2cjM/XbB5wVcVQQI/AAAAAAABaHk/oJFhXbTM8WAOevKr8dvrPgJtX0zRWqe8wCLcBGAsYHQ/s1600/01_Banner_TFT_Learnings_8y7ikpvhe5um9bhprf2o.jpg)
+ - [Website](https://www.surrenderat20.net/2019/10/red-post-collection-dev-on-tft-set-1.html)
+ - [Image source](https://1.bp.blogspot.com/-KZFb-dj2cjM/XbB5wVcVQQI/AAAAAAABaHk/oJFhXbTM8WAOevKr8dvrPgJtX0zRWqe8wCLcBGAsYHQ/s1600/01_Banner_TFT_Learnings_8y7ikpvhe5um9bhprf2o.jpg)
 
 ## For developers
 
@@ -116,12 +116,12 @@ You can visit the website [here](https://nathan-leagueoflegends.vercel.app/)
 
 - app — single page
 - components
-- common — components used across pages / sections
-  - button
-  - footer
-  - header
-  - text
-- pages — page / section-specific components
+ - common — components used across pages / sections
+   - button
+   - footer
+   - header
+   - text
+ - pages — page / section-specific components
 
 ### Local installation guide
 
