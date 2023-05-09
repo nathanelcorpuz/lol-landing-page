@@ -44,7 +44,7 @@ export default function GameModesMobile({
 								</div>
 
 								<div className="w-[fit-content] m-auto xl:m-0">
-									<NormalButton />
+									<NormalButton>Play now</NormalButton>
 								</div>
 							</div>
 						);

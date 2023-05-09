@@ -19,7 +19,7 @@ export default function SlayWithStyle() {
 						with skins.
 					</Standard1>
 					<div className="w-[fit-content]">
-						<NormalButton />
+						<NormalButton>Play now</NormalButton>
 					</div>
 				</div>
 			</div>

@@ -37,7 +37,7 @@ export default function VideoHighlight({
 				</Standard1>
 			</div>
 			<div className="w-[fit-content]">
-				<NormalButton />
+				<NormalButton>Play now</NormalButton>
 			</div>
 		</div>
 	);

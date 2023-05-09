@@ -1,4 +1,4 @@
-import NormalHextechButton from "@/components/common/button/NormalHextechButton";
+import NormalButton from "@/components/common/button/NormalButton";
 
 export default function EndCTA() {
 	return (
@@ -18,7 +18,7 @@ export default function EndCTA() {
 					/>
 				</div>
 				<div className="absolute top-0 right-0 bottom-0 left-0 flex items-center justify-center">
-					<NormalHextechButton>Play for Free</NormalHextechButton>
+					<NormalButton>Play for free</NormalButton>
 				</div>
 			</div>
 		</section>

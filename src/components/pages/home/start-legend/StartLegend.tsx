@@ -21,7 +21,7 @@ export default function StartLegend() {
 						New to League? Get a rundown on the basics for the most popular game
 						mode.
 					</Standard1>
-					<NormalButton />
+					<NormalButton>Get Started</NormalButton>
 					<div>
 						<ButtonLink>Play for Free</ButtonLink>
 					</div>

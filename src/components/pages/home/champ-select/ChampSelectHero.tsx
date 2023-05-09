@@ -5,6 +5,7 @@ import Standard1 from "@/components/common/text/standard/Standard1";
 import NormalHextechButton from "@/components/common/button/NormalHextechButton";
 import ButtonLink from "@/components/common/button/ButtonLink";
 import Heading3 from "@/components/common/text/heading/Heading3";
+import NormalButton from "@/components/common/button/NormalButton";
 
 export default function ChampSelectHero() {
 	return (
@@ -24,17 +25,15 @@ export default function ChampSelectHero() {
 				<div className="xs:block md:hidden text-center">
 					<Heading3>Choose your Champion</Heading3>
 				</div>
-				<div className="text-center">
+				<div className="text-center max-w-[700px]">
 					<Standard1>
 						Whether you like to dive straight into the fray, support your
 						teammates, or something in between, there&apos;s a spot for you in
 						the rift.
 					</Standard1>
 				</div>
-				<div className="flex flex-col gap-[20px] items-center">
-					<NormalHextechButton>Discover More Champions</NormalHextechButton>
-					<ButtonLink>Play Now</ButtonLink>
-				</div>
+				<NormalButton>Discover More Champions</NormalButton>
+				<ButtonLink>Play for free</ButtonLink>
 			</div>
 			<span className="block absolute top-0 w-screen h-[800px] [background:linear-gradient(180deg,rgba(0,0,0,0)_0%,#010A13_100%),linear-gradient(180deg,#010A13_0%,rgba(0,0,0,0)_100%)] z-10" />
 		</div>

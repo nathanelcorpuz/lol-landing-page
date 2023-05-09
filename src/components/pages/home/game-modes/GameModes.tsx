@@ -41,7 +41,7 @@ export default function GameModes() {
 										<Heading1>{gameMode.h1}</Heading1>
 										<Standard1>{gameMode.description}</Standard1>
 										<div className="w-[fit-content] xl:m-0">
-											<NormalButton />
+											<NormalButton>Play now</NormalButton>
 										</div>
 									</div>
 								);
