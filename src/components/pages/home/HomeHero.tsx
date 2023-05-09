@@ -4,8 +4,8 @@ import HextechButton from "@/components/common/button/HextechButton";
 
 export default function HomeHero() {
 	return (
-		<section className="xs:h-[400px] sm:h-[600px] md:h-[700px] relative flex flex-col pt-[100px] items-center">
-			<div className="z-10 xs:pt-0 sm:pt-[0px] xl:pt-[120px] px-[30px]">
+		<section className="xs:h-[400px] sm:h-[450px] md:h-[700px] relative flex flex-col pt-[100px] items-center">
+			<div className="z-10 xs:pt-[60px] sm:pt-[80px] xl:pt-[120px] px-[30px]">
 				<Image
 					src={logo}
 					alt="league of legends logo"
@@ -17,7 +17,7 @@ export default function HomeHero() {
 				<HextechButton>Play for free</HextechButton>
 			</div>
 			<div
-				className="absolute xs:top-[70px] xs:scale-[4] 
+				className="absolute xs:top-[150px] xs:scale-[4] 
 			sm:top-[190px] sm:scale-[2.5]
 			md:top-[250px] md:scale-[2]
 			lg:top-[120px] lg:scale-[1.5]
