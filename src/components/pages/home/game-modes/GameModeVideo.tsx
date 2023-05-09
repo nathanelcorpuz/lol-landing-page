@@ -8,7 +8,7 @@ export default function GameModeVideo({
 	activeGameMode: string;
 }) {
 	return (
-		<div className="w-[40%] relative">
+		<>
 			<div className="absolute top-0 right-0 bottom-0 left-0 flex items-center">
 				<video
 					src="/rift.mp4"
@@ -56,6 +56,6 @@ export default function GameModeVideo({
 				className="object-contain object-center animate-rotation"
 				alt="frame"
 			/>
-		</div>
+		</>
 	);
 }
