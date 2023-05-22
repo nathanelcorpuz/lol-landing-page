@@ -1,6 +1,6 @@
 # Welcome! My name is Nathanel Corpuz and this is my first Next.js portfolio project.
 
-You can visit the website [here](https://nathan-leagueoflegends.vercel.app/)
+You can visit the website [here](https://nleagueoflegends.vercel.app/)
 
 ## Introduction
 
